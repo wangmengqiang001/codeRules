@@ -47,19 +47,19 @@
 ```
 /**
 
-* This class provides default implementations for the JFC &lt;code&gt;Action&lt;/code&gt;
+* This class provides default implementations for the JFC <code>Action</code>
 
 * interface. Standard behaviors like the get and set methods for
 
-* &lt;code&gt;Action&lt;/code&gt; object properties (icon, text, and enabled) are defined
+* <code>Action</code> object properties (icon, text, and enabled) are defined
 
 * here. The developer need only subclass this abstract class and
 
-* define the &lt;code&gt;actionPerformed&lt;/code&gt; method.
+* define the <code>actionPerformed</code> method.
 
-* &lt;p&gt;
+* <p>
 
-* &lt;strong&gt;Warning:&lt;/strong&gt;
+* <strong>Warning:</strong>;
 
 * Serialized objects of this class will not be compatible with
 
@@ -159,15 +159,15 @@ private String returnAuthMessage(ServletResponse response, String message)throws
 修改记录放在类的文件头说明中，一般为&lt;修改人&gt; + &lt;修改日期&gt; + &lt;-&gt; + &lt;修改描述&gt;。
 
 ```
-//&lt;修改人&gt; &lt;修改日期:格式YYYY-MM-DD&gt; &lt;修改描述&gt;
+//<修改人> <修改日期:格式YYYY-MM-DD> <修改描述>;
 
 // 张三 2009-06-24 添加 在删除分析模型时，如果是市县一体化系统，同时删除共享表中的记录
 
 if (isTableExisted("aud\_sharedanalymodel")) {
 
-String where = " pk\_analymodel ='"+ model.getAnalyTableVO().getPrimaryKey()+"'";
+    String where = " pk\_analymodel ='"+ model.getAnalyTableVO().getPrimaryKey()+"'";
 
-m\_daoProxy.deleteByClause(SharedAnalyModelVO.class, where);
+    m_daoProxy.deleteByClause(SharedAnalyModelVO.class, where);
 
 }
 
