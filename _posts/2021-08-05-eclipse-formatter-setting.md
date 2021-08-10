@@ -1,7 +1,7 @@
 ---
 title: Eclipse中配置编辑器中Java格式
 date: 2021-08-05 13:20:00 +0800 
-categories: [使用说明,Eclipse format]
+categories: [日志,使用说明]
 tags: [编辑器格式设定]
 ---
 
