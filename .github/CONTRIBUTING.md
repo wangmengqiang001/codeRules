@@ -7,7 +7,7 @@ To ensure that the blog design is not confused, this project does not accept sug
 Generally, contribute to the project by:
 
 1. Fork this project on GitHub and clone it locally.
-2. Create a new branch from `master` and give it a descriptive name (e.g., `my-new-feature`, `fix-a-bug`).
+2. Create a new branch from `main` and give it a descriptive name (e.g., `my-new-feature`, `fix-a-bug`).
 3. After completing the development, commit and push to remote.
 4. Submit a new pull request.
 
