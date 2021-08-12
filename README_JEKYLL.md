@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.md#readme">EN</a> |
-  <a href="./docs/README.zh-CN.md">中文 (简体)</a>
+  <a href="https://github.com/cotes2020/jekyll-theme-chirpy#readme">EN</a> |
+  <a href="https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/README.zh-CN.md">中文 (简体)</a>
 </div>
 
 <div align="center">
