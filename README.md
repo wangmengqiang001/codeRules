@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md#readme">EN</a> |
-  <a href="./docs/README.zh-CN.md">中文 (简体)</a>
+  <a href="./docs/README.zh-CN.md">Chirpy Jekyll Theme</a>
 </div>
 
 <div align="center">
@@ -68,4 +68,6 @@ docker run --rm --name jserver -it -p 8260:4000 \
  ```
  构建运行镜像
  -----
+将Jekyll构建后产生的_site及可供静态下载的内容通过nginx进行发布
+
  待续....
