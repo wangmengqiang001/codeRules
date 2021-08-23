@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="README.md#readme">EN</a> |
+  <!-- a href="README.md#readme">EN</a -->
   <a href="./docs/README.zh-CN.md">Chirpy Jekyll Theme</a>
 </div>
 
@@ -36,8 +36,8 @@
 - 代码检测工具的使用方法
 
 
-## 前提准备
-
+前提准备
+--
 在本地安装Ruby,Gem等比较繁琐，相关步骤参见 [Jekyll Docs](https://jekyllrb.com/docs/installation/)，有容器的环境建议使用jekyll镜像，以下的说是针对使用容器的情况.
 
 下载代码
