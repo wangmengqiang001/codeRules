@@ -125,11 +125,11 @@ java.lang.Object类是其它所有类的基类，在使用及覆盖其定义的c
 
 -   在Boolean常量上的同步控制会导致死锁
 
--   在装箱基本类型常量(比如Integer)是的同步会导致死锁
+-   在装箱基本类型常量(比如Integer)的同步会导致死锁
 
 -   对被内控共享(interned)的String的同步会导致死锁
 
--   在装箱基本类型值(比如Integer)是的同步会导致死锁
+-   在装箱基本类型值(比如Integer)的同步会导致死锁
 
 -   在Condition 上执行了wait而不是执行了await()
 
