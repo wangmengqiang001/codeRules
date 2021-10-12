@@ -7,7 +7,8 @@ tags: [使用说明]     # TAG names should always be lowercase
 
 ## 在Eclipse中设置SpotBugs规则
 ### 安装插件
- SpotBugs是FindBugs的继承者，其插件安装方法可参考eclipse上安装FindBugs的说明，差别点只是安装的路径不同，可以从[Eclipse MarketPlace](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin) 上获取[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=3519199 "拖拽到运行的Eclipse工作空间中(依赖 Eclipse Marketplace Client)")，或者从[SpotBugs官网](https://spotbugs.readthedocs.io/en/latest/eclipse.html)，及本站获得。
+ SpotBugs是FindBugs的继承者，其插件安装方法可参考eclipse上安装FindBugs的说明，差别点只是安装的路径不同，可以从[Eclipse MarketPlace](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin) 上获取[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=3519199 "拖拽到运行的Eclipse工作空间中(依赖 Eclipse Marketplace Client)")，或者从[SpotBugs官网](https://spotbugs.readthedocs.io/en/latest/eclipse.html)，及本站获得。  
+
  ### 配置规则  
  如下图，在Eclipse中打开Windows-->Preferences-->Java中打开SpotBugs,在窗口中添加要包含的规则。
 ![Eclipse 中配置SpotBugs规则](/assets/img/rules/sb/eclipseRules.jpg)
