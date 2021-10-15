@@ -7,11 +7,11 @@ pin: true
 ---
 
 # Java编码规范
-{% include rules/summary.md %}
+{% include_relative rules/summary.md %}
 
-{% include rules/naming.md %}
+{% include_relative rules/naming.md %}
 
-{% include rules/format.md %}
+{% include_relative rules/format.md %}
 
-{% include rules/pattern.md %}
-{% include rules/tools.md %}
+{% include_relative rules/pattern.md %}
+{% include_relative rules/tools.md %}
