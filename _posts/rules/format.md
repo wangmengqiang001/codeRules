@@ -43,7 +43,8 @@
 -   @since开始版本等信息如
 
 
-```
+```java
+
 /**
 
 * This class provides default implementations for the JFC <code>Action</code>
@@ -81,6 +82,7 @@
 */
 ```
 
+
 为了使形成的文档可读性好，注释中经常带有缩进和格式控制。类描述放在类的类定义的紧前面，不能有任何的空行。
 
 #### 3.2.4 变量注释
@@ -89,7 +91,7 @@
 
 如:
 
-```
+```java
 /**
 
 * Web.xml文件中configServlet参数的UIAPP.xml initparam
@@ -103,7 +105,7 @@ public final static String APP\_CONFIG = "aaa.uiapp";
 
  如：
 
-```
+```java
 void func() {
 
 int i; //用于循环计数
@@ -131,7 +133,7 @@ int i; //用于循环计数
 
 -   @author作者
 
-```
+```java
 /**
 
 * 返回授权验证信息
@@ -157,7 +159,7 @@ private String returnAuthMessage(ServletResponse response, String message)throws
 
 修改记录放在类的文件头说明中，一般为&lt;修改人&gt; + &lt;修改日期&gt; + &lt;-&gt; + &lt;修改描述&gt;。
 
-```
+```Java
 //<修改人> <修改日期:格式YYYY-MM-DD> <修改描述>;
 
 // 张三 2009-06-24 添加 在删除分析模型时，如果是市县一体化系统，同时删除共享表中的记录
@@ -202,7 +204,7 @@ if (isTableExisted("aud\_sharedanalymodel")) {
 
 -   每一个变量声明/定义占一行（参数变量除外），如：
 
-```
+```java
 int a;
 
 int b;
@@ -216,7 +218,7 @@ int b;
 
 > 如：
 
-```
+```java
 void myMethod() {
 
   int int1 = 0; // beginning of method block
@@ -233,14 +235,14 @@ void myMethod() {
 ```
 -   数组的申明采用 &lt;数据类型\[\] + 变量名&gt;方式如：
 
-```
+```java
 char\[\] buffer;
 ```
 
 
 > 而不是：
 
-```
+```java
 char buffer\[\];
 ```
 

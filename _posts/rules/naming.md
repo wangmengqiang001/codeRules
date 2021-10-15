@@ -70,7 +70,7 @@
 -   程序开发中最好不要直接对literal（字面量）进行工作，最好引入常量方式应用；只有在特别的情况下才能使用， 如在for循环中初始化变量时可直接用-1,0,1这些常量。
 
 例：  
-```
+```java
 public final int MAX\_SIZE = 120;
 
 public final int MAX\_WIDTH = 100;
@@ -120,4 +120,3 @@ public final String PROPERTY\_NAME= "menu" ;
 | copy               | 复制             | copyCustomerList()     |
 | send               | 发送某消息或事件 | sendOrderPaidMessage() |
 | find               | 查找对象         | findNewSupplier()      |
-
