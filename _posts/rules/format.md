@@ -98,7 +98,7 @@
 
 */
 
-public final static String APP\_CONFIG = "aaa.uiapp";
+public final static String APP_CONFIG = "aaa.uiapp";
 ```
 
 -   局部变量采用//或者/\*内容\*/格式，对变量的意义进行注释。
@@ -164,9 +164,9 @@ private String returnAuthMessage(ServletResponse response, String message)throws
 
 // 张三 2009-06-24 添加 在删除分析模型时，如果是市县一体化系统，同时删除共享表中的记录
 
-if (isTableExisted("aud\_sharedanalymodel")) {
+if (isTableExisted("aud_sharedanalymodel")) {
 
-    String where = " pk\_analymodel ='"+ model.getAnalyTableVO().getPrimaryKey()+"'";
+    String where = " pk_analymodel ='"+ model.getAnalyTableVO().getPrimaryKey()+"'";
 
     m_daoProxy.deleteByClause(SharedAnalyModelVO.class, where);
 
@@ -236,14 +236,14 @@ void myMethod() {
 -   数组的申明采用 &lt;数据类型\[\] + 变量名&gt;方式如：
 
 ```java
-char\[\] buffer;
+char[] buffer;
 ```
 
 
 > 而不是：
 
 ```java
-char buffer\[\];
+char buffer[];
 ```
 
 

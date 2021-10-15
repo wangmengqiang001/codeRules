@@ -71,11 +71,11 @@
 
 例：  
 ```java
-public final int MAX\_SIZE = 120;
+public final int MAX_SIZE = 120;
 
-public final int MAX\_WIDTH = 100;
+public final int MAX_WIDTH = 100;
 
-public final String PROPERTY\_NAME= "menu" ;  
+public final String PROPERTY_NAME= "menu" ;  
 ```      
 ### 2.5 变量命名
 
