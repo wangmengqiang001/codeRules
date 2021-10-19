@@ -16,8 +16,8 @@ Find-Sec-Bugs中的规则包含了部分的Fortify的规则，使用标准的版
 
 ## 在IDEA中设置Find-Sec-Bugs规则
 从[IDEA 市场](https://plugins.jetbrains.com/plugin/14014-spotbugs/versions)下载的插件看到，SpotBugs插件中已经包含了Find-Sec-Bugs
-![IDEA 安装Find-Sec-Bugs](/assets/img/rules/sb/ideaFb.png)。
-如果没有可以参考<sup>[2]</sup>中的内容进行下载和安装。
+，如果没有可以参考<sup>[2]</sup>中的内容进行下载和安装。
+![IDEA 安装Find-Sec-Bugs](/assets/img/rules/sb/ideaFb.png)
 
 ## 推荐参考
 1. [eclipse安装findbugs及Find-sec-bugs安全组件][eclipse_install]
