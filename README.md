@@ -42,7 +42,7 @@
 
 下载代码
 --------
-```console
+```shell
 git clone https://github.com/wangmengqiang001/codeRules.git
 
 chmod a+w codeRules
@@ -51,23 +51,37 @@ mkdir bundles
 
 执行jekyll构建
 --------------
-```console
+```shell
 docker run --rm --name jbuild -it -v $PWD/codeRules:/srv/jekyll \
 -v $PWD/bundles:/usr/local/bundle \
  jekyll/jekyll jekyll build
 
 ```
+或者使用tools/buildbc.sh进行构建
+```shell
+cd codeRules
+./tools/buildbc.sh
+
+```
 
 运行jekyll服务
 --------------
-```console
+```shell
 docker run --rm --name jserver -it -p 8260:4000 \
 -v $PWD/codeRules:/srv/jekyll \
 -v $PWD/bundles:/usr/local/bundle \
  jekyll/jekyll jekyll  server -H 0.0.0.0
  ```
+
+ 或者使用tools/runbc.sh来运行
+ ```shell
+ cd codeRules
+ ./tools/runbc.sh
+
+ ```
+
  构建运行镜像
  -----
-将Jekyll构建后产生的_site及可供静态下载的内容通过nginx进行发布
 
- 待续....
+将Jekyll构建后产生的_site及可供静态下载的内容通过nginx进行发布，或者构建为基于nginx的镜像，然后以容器方式发布和运行，
+相关内容可参考项目 [rulesite](https://github.com/wangmengqiang001/rulesite "Github rulesite")
