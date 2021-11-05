@@ -6,7 +6,7 @@
 
 SOURCE_FOLDER=$PWD
 if [ ! -z $JENKINS_VOLUME ]; then
-  SOURCE_FOLDER=$JENKINS_VOLUME/workspace/codeRules/codeRules
+  SOURCE_FOLDER=$JENKINS_VOLUME/workspace/$JOB_NAME/codeRules
   echo ' building in jenkins container'
 fi
 
