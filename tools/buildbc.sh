@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 #
 # Run jekyll builder to build the site(output folder:_site)
-docker run --rm --name jbuild -it \
--v $PWD:/srv/jekyll \
+
+# run it in the source folder instead of tool
+
+SOURCE_FOLDER=$PWD
+if [ ! -z $JENKINS_VOLUME ]; then
+  SOURCE_FOLDER=$JENKINS_VOLUME/workspace/codeRules/codeRules
+  echo ' building in jenkins container'
+fi
+
+docker run --rm  \
+-v $SOURCE_FOLDER:/srv/jekyll \
+-v $SOURCE_FOLDER/vendor/bundle:/usr/local/bundle \
  jekyll/builder /bin/bash -c "chmod a+w /srv/jekyll && jekyll build --future"
