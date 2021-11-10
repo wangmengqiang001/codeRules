@@ -141,12 +141,13 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="NP_TOSTRING_COULD_RETURN_NULL" />
 	</Match>
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="NM_CLASS_NOT_EXCEPTION" />
 	</Match>
 	<Match>
 		<Bug pattern="NM_CONFUSING" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 	<Match>
 		<Bug pattern="NM_FUTURE_KEYWORD_USED_AS_IDENTIFIER" />
@@ -158,9 +159,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="NM_SAME_SIMPLE_NAME_AS_SUPERCLASS" />
 	</Match>
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="NM_VERY_CONFUSING_INTENTIONAL" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 	<Match>
 		<Bug pattern="NM_WRONG_PACKAGE_INTENTIONAL" />
@@ -240,6 +242,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 
 	<!--Malicious code vulnerability （恶意代码漏洞) -->
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="EI_EXPOSE_REP" />
 	</Match>
@@ -248,10 +251,11 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="FI_PUBLIC_SHOULD_BE_PROTECTED" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="EI_EXPOSE_STATIC_REP2" />
 	</Match>
@@ -260,13 +264,14 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="MS_FINAL_PKGPROTECT" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="MS_MUTABLE_COLLECTION" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<Match>
@@ -276,9 +281,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="MS_MUTABLE_HASHTABLE" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="MS_OOI_PKGPROTECT" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<Match>
@@ -297,9 +303,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="DC_DOUBLECHECK" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="DC_PARTIALLY_CONSTRUCTED" />
@@ -317,15 +324,17 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="DL_SYNCHRONIZATION_ON_UNSHARED_BOXED_PRIMITIVE" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="DM_MONITOR_WAIT_ON_CONDITION" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<Match>
 		<Bug pattern="DM_USELESS_THREAD" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="ESync_EMPTY_SYNC" />
 	</Match>
@@ -334,7 +343,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="IS_FIELD_NOT_GUARDED" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<Match>
@@ -362,12 +371,13 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="MSF_MUTABLE_SERVLET_FIELD" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="MWN_MISMATCHED_NOTIFY" />
 	</Match>
 	<Match>
 		<Bug pattern="MWN_MISMATCHED_WAIT" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<Match>
@@ -386,9 +396,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="RU_INVOKE_RUN" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="SC_START_IN_CTOR" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="SP_SPIN_ON_FIELD" />
@@ -529,9 +540,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="NS_NON_SHORT_CIRCUIT" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="PZLA_PREFER_ZERO_LENGTH_ARRAYS" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="REC_CATCH_EXCEPTION" />
@@ -549,17 +561,19 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="SF_SWITCH_FALLTHROUGH" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="SF_SWITCH_NO_DEFAULT" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="UCF_USELESS_CONTROL_FLOW" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="UCF_USELESS_CONTROL_FLOW_NEXT_LINE" />
@@ -571,9 +585,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="XFB_XML_FACTORY_BYPASS" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
   <Match>
 		<Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" />
@@ -821,9 +836,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="NP_ALWAYS_NULL_EXCEPTION" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="NP_ARGUMENT_MIGHT_BE_NULL" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 	<Match>
@@ -908,9 +924,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="RC_REF_COMPARISON" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
-	<Match>
+
+	<!-- <Match>
 		<Bug pattern="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="RE_BAD_SYNTAX_FOR_REGULAR_EXPRESSION" />
@@ -1061,6 +1078,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="DM_BOXED_PRIMITIVE_TOSTRING" />
 	</Match>
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="DM_FP_NUMBER_CTOR" />
 	</Match>
@@ -1075,7 +1093,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="DM_BOOLEAN_CTOR" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 	<Match>
 		<Bug pattern="DM_GC" />
@@ -1102,6 +1120,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="SBSC_USE_STRINGBUFFER_CONCATENATION" />
 	</Match>
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="SIC_INNER_SHOULD_BE_STATIC" />
 	</Match>
@@ -1110,9 +1129,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="SIC_INNER_SHOULD_BE_STATIC_NEEDS_THIS" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 	<!--以下为改善规则:Level 2 -->
+	<!--
 	<Match>
 		<Bug pattern="SS_SHOULD_BE_STATIC" />
 	</Match>
@@ -1130,7 +1150,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="WMI_WRONG_MAP_ITERATOR" />
-	</Match>
+	</Match> -->
 	<!--以上为改善规则:Level 2 -->
 
 

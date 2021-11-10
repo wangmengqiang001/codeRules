@@ -156,26 +156,29 @@
         <!-- Checks for Size Violations.                    -->
         <!-- See https://checkstyle.org/config_sizes.html -->
 
-
+<!--
         <module name="ParameterNumber">
           <property name="max" value="5"/>
         </module>
-        <module name="MethodLength"/>
+        <module name="MethodLength"/> -->
 
         <!-- Checks for class design                         -->
         <!-- See https://checkstyle.org/config_design.html -->
+<!--
         <module name="InnerTypeLast"/>
-        <module name="VisibilityModifier"/>
+        <module name="VisibilityModifier"/> -->
 
         <!-- Modifier Checks                                    -->
         <!-- See https://checkstyle.org/config_modifiers.html -->
+<!--
         <module name="ModifierOrder"/>
         <module name="ClassMemberImpliedModifier" />
-        <module name="InterfaceMemberImpliedModifier"/>
+        <module name="InterfaceMemberImpliedModifier"/> -->
 
         <!-- Checks for whitespace                               -->
         <!-- See https://checkstyle.org/config_whitespace.html -->
-        <module name="MethodParamPad"/>
+<!--
+        <module name="MethodParamPad"/> -->
 
         <!--***以上为完美规则:Level 3 ***-->
 

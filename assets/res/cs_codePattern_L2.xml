@@ -71,16 +71,17 @@
 								value="2"/>
 		</module>
 		<module name="NestedTryDepth"/>
-		
+
 		<!--***以上为改善规则:Level 2 ***-->
 
 		<!--***以下为完美规则:Level 3 ***-->
-
+<!--
 		<module name="CyclomaticComplexity">
 			<property name="max"
 			          value="12"/>
 		</module>
-		<module name="NPathComplexity"/>
+		<module name="NPathComplexity"/> -->
+		
 		<!--***以上为完美规则:Level 3 ***-->
 
 	</module>

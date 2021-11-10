@@ -141,12 +141,13 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="NP_TOSTRING_COULD_RETURN_NULL" />
 	</Match>
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="NM_CLASS_NOT_EXCEPTION" />
 	</Match>
 	<Match>
 		<Bug pattern="NM_CONFUSING" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 	<Match>
 		<Bug pattern="NM_FUTURE_KEYWORD_USED_AS_IDENTIFIER" />
@@ -158,9 +159,10 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="NM_SAME_SIMPLE_NAME_AS_SUPERCLASS" />
 	</Match>
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="NM_VERY_CONFUSING_INTENTIONAL" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 	<Match>
 		<Bug pattern="NM_WRONG_PACKAGE_INTENTIONAL" />
@@ -252,6 +254,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	<!--以上为改善规则:Level 2 -->
 
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="EI_EXPOSE_STATIC_REP2" />
 	</Match>
@@ -260,7 +263,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="MS_FINAL_PKGPROTECT" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 
 	<!--以下为改善规则:Level 2 -->
@@ -1102,6 +1105,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug pattern="SBSC_USE_STRINGBUFFER_CONCATENATION" />
 	</Match>
 	<!-- 完美规则:Level 3 开始 -->
+	<!--
 	<Match>
 		<Bug pattern="SIC_INNER_SHOULD_BE_STATIC" />
 	</Match>
@@ -1110,7 +1114,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="SIC_INNER_SHOULD_BE_STATIC_NEEDS_THIS" />
-	</Match>
+	</Match> -->
 	<!-- 完美规则:Level 3  结束-->
 	<!--以下为改善规则:Level 2 -->
 	<Match>
