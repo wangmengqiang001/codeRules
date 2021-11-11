@@ -473,7 +473,7 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 	</Match>
 	<Match>
 		<Bug pattern="XSS_REQUEST_PARAMETER_TO_JSP_WRITER" />
-	</Match
+	</Match>
 	<Match>
 		<Bug pattern="XSS_REQUEST_PARAMETER_TO_SEND_ERROR" />
 	</Match>
