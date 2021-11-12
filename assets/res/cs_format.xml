@@ -21,6 +21,8 @@
     <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
   </module>
 
+
+
   <!-- Checks for Size Violations.                    -->
   <!-- See https://checkstyle.org/config_sizes.html -->
   <module name="FileLength">
@@ -49,6 +51,7 @@
       <property name="severity" value="ignore"/>
       <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
     </module>
+
     <module name="NonEmptyAtclauseDescription">
       <property name="severity" value="ignore"/>
       <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
@@ -69,8 +72,8 @@
     <module name="MethodName"/>
     <module name="ParameterName"/>
     <module name="PackageName"/>
-    <module name="TypeName"/>
     <module name="StaticVariableName"/>
+
     <module name="AbstractClassName"/>
     <module name="TypeName">
       <property name="format"
@@ -93,7 +96,7 @@
         <!-- Checks for blocks. You know, those {}'s         -->
         <!-- See https://checkstyle.org/config_blocks.html -->
         <module name="EmptyBlock"/>
-        <module name="EmptyCatchBlock"/>
+        <!-- <module name="EmptyCatchBlock"/> -->
         <module name="AvoidNestedBlocks"/>
 
 
@@ -102,7 +105,7 @@
         <!-- See https://checkstyle.org/config_design.html -->
         <module name="ThrowsCount"/>
         <module name="OneTopLevelClass"/>
-        <module name="InterfaceIsType"/>
+        <!-- <module name="InterfaceIsType"/> -->
         <module name="FinalClass"/>
 
 
@@ -134,8 +137,8 @@
 
         <!-- Checks for imports                              -->
         <!-- See https://checkstyle.org/config_import.html -->
-        <module name="UnusedImports"/>
-        <module name="AvoidStarImport"/>
+        <!-- <module name="UnusedImports"/> -->
+        <!-- <module name="AvoidStarImport"/> -->
 
         <!-- Checks for whitespace                               -->
         <!-- See https://checkstyle.org/config_whitespace.html -->
@@ -146,8 +149,8 @@
 
         <!-- Miscellaneous other checks.                   -->
         <!-- See https://checkstyle.org/config_misc.html -->
-        <module name="UncommentedMain"/>
-        <module name="CommentsIndentation"/>
+        <!-- <module name="UncommentedMain"/> -->
+        <!-- <module name="CommentsIndentation"/> -->
 
         <!--***以上为改善规则:Level 2 ***-->
 
@@ -158,7 +161,7 @@
 
 
         <module name="ParameterNumber">
-          <property name="max" value="5"/>
+          <property name="max" value="10"/>
         </module>
         <module name="MethodLength"/>
 
@@ -171,7 +174,7 @@
         <!-- See https://checkstyle.org/config_modifiers.html -->
         <module name="ModifierOrder"/>
         <module name="ClassMemberImpliedModifier" />
-        <module name="InterfaceMemberImpliedModifier"/>
+        <!-- <module name="InterfaceMemberImpliedModifier"/> -->
 
         <!-- Checks for whitespace                               -->
         <!-- See https://checkstyle.org/config_whitespace.html -->

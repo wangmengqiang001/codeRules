@@ -479,9 +479,11 @@ https://raw.githubusercontent.com/spotbugs/spotbugs/3.1.0/spotbugs/etc/findbugsf
 		<Bug
 			pattern="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" />
 	</Match>
+	<!--  Sonar 不认识该规则
 	<Match>
 		<Bug pattern="XSS_REQUEST_PARAMETER_TO_JSP_WRITER" />
 	</Match>
+-->
 	<Match>
 		<Bug pattern="XSS_REQUEST_PARAMETER_TO_SEND_ERROR" />
 	</Match>
