@@ -11,7 +11,7 @@ if [ ! -z $JENKINS_VOLUME ]; then
 fi
 
 docker run --rm  \
--env JEKYLL_ENV=production \
+--env JEKYLL_ENV=production \
 -v $SOURCE_FOLDER:/srv/jekyll \
 -v $SOURCE_FOLDER/vendor/bundle:/usr/local/bundle \
  jekyll/builder /bin/bash -c "chmod a+w /srv/jekyll && jekyll build --future"
